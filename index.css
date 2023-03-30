@@ -54,6 +54,7 @@ h1 {
 
 .fa-plus:hover{
     color: #000000;
+    cursor: pointer;
 }
 
 .fa-plus:active{
@@ -103,6 +104,7 @@ p{
 
 .remove-btn:hover{
     color: #000000;
+    cursor: pointer;
 }
 
 .remove-btn:active{
@@ -137,6 +139,7 @@ p{
     color: #FFFFFF;
     width: 450px;
     justify-content: center;
+    cursor: pointer;
 }
 
 .payment-modal{
