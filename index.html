@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- CSS -->
+       <link rel="stylesheet" href="index.css">
+       <!-- Google Font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h1>Buli</h1>
+            <p class="sub-header-text">The best burgers and pizzas in town.</p>
+        </header>
+        <main>
+            <div id="menu"></div>
+            <div id="order"></div>
+        </main>
+        <div class="payment-modal" id="payment-modal">
+        <div class="close-modal-btn-container">
+			<button class="modal-close-btn" id="modal-close-btn">X</button>
+		</div>
+            <h2>Enter card details</h2>
+        <div class="payment-form-div">
+            <form id="payment-form">
+				<input type="text" name="fullName" placeholder="Enter your full name" required/>
+				<input type="text" name="card-number" placeholder="Enter your card number" required/>
+                <input type="text" name="cvv" placeholder="Enter CVV" required/>
+				<button type="submit" class="modal-btn" id="modal-btn">Pay</button>
+        </div>
+		</div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

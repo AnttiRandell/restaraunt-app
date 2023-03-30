@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Smythe';
+    width: 508px;
+    margin: auto;
+} 
+
+header {
+    background: url("headerimage.jpg");
+    background-size: cover;
+    width: 508px;
+    height: 167px;
+    margin: 0 auto 0 auto;
+    color: #FFFFFF;
+}
+
+h1 {
+    padding: 31px 0 0 46px;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sub-header-text {
+    padding: 0 0 0 46px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.menu-container{
+    display: flex;
+    text-align: left;
+    width: 508px;
+    height: 140px;
+    margin: 20px auto 20px auto;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu-emoji{
+    font-size: 78px;
+    margin: auto 0 auto 0;
+}
+
+.menu-details{
+    margin: auto 0 auto 36px;
+}
+
+.fa-plus{
+    font-size: 32px;
+    color: gray;
+    margin: auto 0 auto auto;
+}
+
+.fa-plus:hover{
+    color: #000000;
+}
+
+.fa-plus:active{
+    color: blue;
+}
+
+.menu-name{
+    font-size: 28px;
+    margin: 0px;
+}
+
+.menu-ingredients{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-price{
+    font-size: 20px;
+    margin: 0px;
+}
+
+p{
+    margin: 0 0 5px 0;
+}
+
+.your-order{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.order, .total-price{
+    display: flex;
+    margin: 5px 10px 0 10px;
+    gap: 10px;
+}
+
+.order-name{
+    font-size: 28px;
+}
+
+.remove-btn{
+    font-size: 12px;
+    align-self: center;
+    color: #BBBBBB;
+}
+
+.remove-btn:hover{
+    color: #000000;
+}
+
+.remove-btn:active{
+    color: red;
+}
+
+.item-price{
+    display: flex;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.total-price-number{
+    display: flex;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.total-price{
+    border-top: 1px solid #D2D2D2;
+    font-size: 28px;
+}
+
+.complete-btn{
+    margin: auto;
+    border: none;
+    background: #16DB99;
+    margin: 20px auto 10px auto;
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    color: #FFFFFF;
+    width: 450px;
+    justify-content: center;
+}
+
+.payment-modal{
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 380px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.payment-form-div{
+    width: 290px;
+    margin: 0 auto;
+}
+
+input{
+    margin: 15px auto; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.modal-btn{
+    border: none;
+    background: #16DB99;
+    margin: 20px auto 10px auto;
+    padding: 10px 100px;
+    box-shadow: 1px 1px 1px 0px;
+    color: #FFFFFF;
+}
+
+.close-modal-btn-container{
+    text-align: right;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+.thank-you{
+    background: #ECFDF5;
+    font-size: 28px;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+
